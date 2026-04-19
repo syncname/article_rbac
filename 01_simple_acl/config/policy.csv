@@ -1,0 +1,3 @@
+p, alice, /posts, read
+p, alice, /posts, write
+p, bob, /posts, read
