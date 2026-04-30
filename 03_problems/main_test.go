@@ -14,9 +14,9 @@ func TestRBACPolicy(t *testing.T) {
 	}
 
 	tests := []struct {
-		name           string
-		sub, obj, act  string
-		want           bool
+		name          string
+		sub, obj, act string
+		want          bool
 	}{
 		// alice — admin
 		{"admin читает /admin", "alice", "/admin", "read", true},
