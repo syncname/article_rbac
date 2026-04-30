@@ -1,0 +1,13 @@
+
+p, admin, /admin, read
+p, admin, /admin, write
+p, admin, /dashboard, read
+
+p, editor, /dashboard, read
+p, editor, /dashboard, write
+
+p, viewer, /dashboard, read
+
+g, alice, admin
+g, bob, editor
+g, charlie, viewer
