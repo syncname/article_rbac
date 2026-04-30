@@ -1,9 +1,8 @@
 package main
 
 import (
-	"testing"
-
 	"github.com/casbin/casbin/v2"
+	"testing"
 )
 
 // Табличные тесты для политик — раздел 6
